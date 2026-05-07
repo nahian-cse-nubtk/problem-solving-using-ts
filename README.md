@@ -6,7 +6,6 @@ This assignment comprises various problems that demonstrate fundamental TypeScri
 
 ## 💻 Problem Solving
 
-All coding solutions must be implemented in a **single file** named `solutions.ts`.
 
 ## Problem 1:
 Create a TypeScript function `filterEvenNumbers` that accepts an array of numbers and returns a new array containing only the even numbers.
