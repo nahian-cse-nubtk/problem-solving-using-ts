@@ -51,17 +51,16 @@ interface Book{
     publishedYear: number;
 }
 
-function toggleReadStatus(book: Book):Book & {isRead: boolean}{
+function toggleReadStatus(book: Book,isRead:boolean=true):Book & {isRead: boolean}{
     return {
         ...book,
-        isRead: true,
+        isRead,
     };
 }
 
 const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
 
 //console.log(toggleReadStatus(myBook))
-
 
 //problem-06
 class Person{
