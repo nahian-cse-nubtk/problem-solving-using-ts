@@ -2,11 +2,11 @@
 
 ## Introduction
 
-TypeScript helps developers write safer JavaScript code by checking types before the code runs. This reduces bugs and makes applications more reliable. Among the many types in TypeScript, two special types are `any` and `unknown`.
+TypeScript helps us write safer JavaScript code by checking types before the code runs. This reduces bugs and makes applications more reliable. Among the many types in TypeScript, two special types are `any` and `unknown`.
 
-At first glance, both may seem similar because they can store any kind of value. However, they behave very differently when it comes to safety.
+At first, both may seem similar because they can store any kind of value. However, they behave very differently when it comes to safety.
 
-The `any` type removes TypeScript’s protection completely, which is why developers often call it a **“type safety hole.”** In contrast, `unknown` is designed to handle uncertain or unpredictable data in a much safer way.
+The `any` type removes TypeScript’s protection completely, for this developers often call it a **“type safety hole.”** In contrast, `unknown` helps to handle uncertain or unpredictable data in a much safer way.
 
 To understand why `unknown` is safer, it is also important to understand a concept called **type narrowing**, which allows TypeScript to safely identify the actual type of a value before using it.
 
