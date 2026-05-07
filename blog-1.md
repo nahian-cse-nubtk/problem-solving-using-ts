@@ -101,7 +101,7 @@ printLength(100);
 
 ---
 
-# Main Difference Between `any` and `unknown`
+# Difference Between `any` and `unknown`
 
 | `any` | `unknown` |
 |---|---|
