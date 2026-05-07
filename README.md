@@ -4,7 +4,7 @@
 
 This assignment comprises various problems that demonstrate fundamental TypeScript concepts, including data typing, interfaces for objects, class usage with inheritance, type checking, and manipulation of data structures. The solutions aim to showcase efficient and clear problem-solving techniques using TypeScript, adhering to best coding practices.
 
-## 💻 Problem Solving (50 Marks)
+## 💻 Problem Solving
 
 All coding solutions must be implemented in a **single file** named `solutions.ts`.
 
@@ -101,7 +101,7 @@ getIntersection([1, 2, 3, 4, 5], [3, 4, 5, 6, 7])
 
 ---
 
-## Blog Writing (Choose any two: 10 Marks)
+## Blog Writing
 
 Write an impactful and technically sound blog post covering **two** of the following topics. Your blog should be clear, concise, and include code examples where necessary to illustrate your points.
 
