@@ -4,7 +4,7 @@ function filterEvenNumbers(numbers: number[]):number[]{
     return evenNumber;
 }
 
-const getEvenNumber = filterEvenNumbers([1,2,3,4,5,6]);
+//const getEvenNumber = filterEvenNumbers([1,2,3,4,5,6]);
 //console.log(getEvenNumber);
 
 //problem-02
@@ -15,7 +15,7 @@ const reverseString = (text: string):string=>{
 
 }
 
-const reverseWord = reverseString("typescript")
+//const reverseWord = reverseString("typescript")
 //console.log(reverseWord);
 
 
@@ -40,7 +40,7 @@ function getProperty<T, K extends keyof T>(obj:T, key:K):T[K]{
     return obj[key];
 }
 
-const user = { id: 1, name: "John Doe", age: 21 };
+//const user = { id: 1, name: "John Doe", age: 21 };
 //console.log(getProperty(user, "name"))
 
 
@@ -54,13 +54,13 @@ interface Book{
 function toggleReadStatus(book: Book,isRead:boolean=true):Book & {isRead: boolean}{
     return {
         ...book,
-        isRead,
+        isRead: arguments.length === 1 ? true : !isRead,
     };
 }
 
-const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
+//const myBook = { title: "TypeScript Guide", author: "Jane Doe", publishedYear: 2024 };
 
-//console.log(toggleReadStatus(myBook))
+//console.log(toggleReadStatus(myBook,true))
 
 //problem-06
 class Person{
@@ -86,7 +86,7 @@ class Student extends Person{
     }
 }
 
-const student = new Student("Alice",20,"A")
+//const student = new Student("Alice",20,"A")
 //console.log(student.getDetails())
 
 //problem-07
@@ -96,6 +96,6 @@ function getIntersection(arr1:number[], arr2: number[]):number[]{
     return [...new Set(result)]
 }
 
-const intersection = getIntersection([1,2, 3, 4, 5], [3, 4, 5, 6, 7]);
+//const intersection = getIntersection([1,2, 3, 4, 5], [3, 4, 5, 6, 7]);
 
 //console.log(intersection);
